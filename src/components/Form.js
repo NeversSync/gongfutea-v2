@@ -14,6 +14,7 @@ class Form extends Component {
   }
   
   handleChange({ target }) {
+    // Put in fetch request here: https://blog.hellojs.org/fetching-api-data-with-react-js-460fe8bbf8f2
     this.setState({ textField: target.value });
     autocompleteApi.getPlace(target.value);
   }

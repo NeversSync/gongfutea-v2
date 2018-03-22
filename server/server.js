@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 require('dotenv').config();
 const app = require('./app');
-require('./utils/connect');
+//require('./utils/connect');
 const debug = require('debug')('express-react:server');
 const http = require('http');
 

@@ -1,26 +1,21 @@
 const express = require('express');
 const router = express.Router();
 const superAgent = require('superagent');
-// const app = express();
 
 router.get('/autocomplete', (request, response) => {
   console.log(request, 'testing');
 });
 
 router.post('/autocomplete/:place', (request, response) => {
-  const place = request.body;
-  console.log(`  
-  
-  ${request}
-  
-  `);
+  const place = request.params.place;
   superAgent
     .get(
       `https://maps.googleapis.com/maps/api/place/autocomplete/json?input=${place}&key=${process.env.REACT_API_GOOGLE_API_KEY}`
     )
-    .then(res => {
-      console.log('were here');
-      res.send(res);
+    .then(data => {
+      console.log('were here', data);
+      response.send(data);
+      // TODO: Use a section of this data Object on frontend for autosuggest
     })
     .catch(err => console.log(err));
 });

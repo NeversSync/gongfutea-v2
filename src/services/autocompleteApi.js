@@ -1,4 +1,4 @@
-const API_URL = '/autocomplete';
+const API_URL = '/api/autocomplete';
 
 export default {
   getPlace(place) {
@@ -10,7 +10,7 @@ export default {
       })
     })
       .then(response => {
-        console.log('automcplete api response', response);
+        console.log('autocomplete api response', response);
       })
       .catch(err => console.log(err));
   }

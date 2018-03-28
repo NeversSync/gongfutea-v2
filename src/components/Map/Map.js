@@ -5,7 +5,7 @@ import {
   Marker,
   GoogleApiWrapper
 } from 'google-maps-react';
-import Form from './Form';
+import AutoForm from './AutoForm';
 
 // TODO: add function for places API (autocomplete!) 
 // https://www.npmjs.com/package/google-maps-react
@@ -49,7 +49,7 @@ export class MapContainer extends Component {
   
     return (
         <div style={{ height: '200px'}}>
-          <Form/>
+          <AutoForm/>
           <Map 
             google={this.props.google}
             initialCenter={{

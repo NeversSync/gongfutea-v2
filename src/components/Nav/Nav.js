@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { push as Menu } from 'react-burger-menu';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import '../Styles/main.css';
+import '../../styles/main.css';
 
 const NavItem = styled.li`
   font-size: 2em;

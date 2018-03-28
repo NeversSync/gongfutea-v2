@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import backgroundImg from '../assets/img/puer-tea-table.png';
-import { Copy, Title } from '../Styles/utils.js';
+import { Copy, Title } from '../styles/utils.js';
 
 const Wrapper = styled.div`
   display: flex;

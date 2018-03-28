@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardActions, CardHeader, CardTitle, CardText } from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
-import avatarPhoto from '../assets/img/teacup.jpg';
+import avatarPhoto from '../../assets/img/teacup.jpg';
 
 export default class VendorCard extends React.Component {
   constructor(props) {

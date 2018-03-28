@@ -5,11 +5,11 @@ import {
   Redirect,
   Switch
 } from 'react-router-dom';
-import Main from './components/Main';
-import Nav from './components/Nav';
+import Main from './components/Landing/Landing';
+import Nav from './components/Nav/Nav';
 import About from './components/About';
 import Login from './components/Login';
-import Vendors from './components/Vendors';
+import Vendors from './components/Vendors/Vendors';
 import shopData from './data/data'; 
 
 class App extends Component {

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
-import autocompleteApi from '../services/autocompleteApi';
+import autocompleteApi from '../../services/autocompleteApi';
 
-class Form extends Component {
+class AutoForm extends Component {
   state = {
     textField: ''
   };
@@ -30,4 +30,4 @@ class Form extends Component {
 
 }
 
-export default Form;
+export default AutoForm;

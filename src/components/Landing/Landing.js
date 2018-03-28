@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import backgroundImage from '../assets/img/tetsu2.png';
-import List from './List';
-import Map from './Map';
+import backgroundImage from '../../assets/img/tetsu2.png';
+import List from '../List/List';
+import Map from '../Map/Map';
 
 const Wrapper = styled.div`
   height: 1900px;

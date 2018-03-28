@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import backgroundImage from '../assets/img/gongfu-setup.jpg';
-import vendors from '../data/vendors';
+import backgroundImage from '../../assets/img/gongfu-setup.jpg';
+import vendors from '../../data/vendors';
 import { List } from 'material-ui/List';
 import Divider from 'material-ui/Divider';
 import VendorCard from './VendorCard';
